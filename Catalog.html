@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Book Store Catalog</title>
+    <style>
+        /* Add some basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        .book {
+            display: flex;
+            margin-bottom: 20px;
+        }
+        
+        .book img {
+            width: 100px;
+            height: 150px;
+            margin-right: 20px;
+        }
+        
+        .book-info {
+            flex: 1;
+        }
+        
+        .search-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .search-container input[type="text"] {
+            padding: 10px;
+            width: 300px;
+        }
+        
+        .search-container input[type="submit"] {
+            padding: 10px 20px;
+            background-color: tomato;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body bgcolor="tomato">
+    <h1>Online Book Store Catalog</h1>
+    
+    <div class="search-container">
+        <form>
+            <input type="text" placeholder="Search books...">
+            <input type="submit" value="Search">
+        </form>
+    </div>
+    
+    <div class="book">
+        <img src="front-end.jpeg" alt="Book 1">
+        <div class="book-info">
+            <h2>Front-End Web Development</h2>
+            <p>Author: Chris Aquino and Todd Gandee</p>
+            <p>Price: 1000\-</p>
+            <p>Description: THE BIG NERD RANCH GUIDE</p>
+        </div>
+    </div>
+    
+    <div class="book">
+        <img src="back-end.jpeg" alt="Book 2">
+        <div class="book-info">
+            <h2>Back-End Developer</h2>
+            <p>Author: Kathy Sierra</p>
+            <p>Price: 2500\-</p>
+            <p>Description: THE ULTIMATE GUIDE</p>
+        </div>
+    </div>
+    
+    <!-- Add more book entries as needed -->
+    
+</body>
+</html>

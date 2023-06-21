@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Login</title>
+<script src="login.js"></script>
+</head>
+<body bgcolor="tomato">
+<center>
+<strong><h1>BOOK STORE</h1></strong>
+</center>
+<div align="center">
+<table>
+<tr>
+<td><h4>Username:</h4></td>
+<td><input type="text" id="username"></td>
+</tr>
+<tr>
+<td><h4>Password:</h4></td>
+<td><input type="password" id="password"></td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<form id="loginForm" method="post" action="catalog.html" onsubmit="return validateLogin()">
+<input type="submit" value="Submit">
+</form>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<button type="button" onclick="redirectToRegistration()">Register</button>&nbsp;&nbsp;
+</form>
+</td>
+</tr>
+</table>
+</div>
+
+<script>
+function redirectToRegistration() {
+  window.location.href = "Reg.html";
+}
+</script>
+
+</body>
+</html>

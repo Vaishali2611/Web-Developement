@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Payment</title>
+<script src="Payment.js"></script>
+</head>
+<body bgcolor="tomato">
+<center>
+<h1>Payment By Credit Card</h1>
+</center>
+<form id="paymentform" method="post" action="Order.html" onsubmit="return validatePaymentForm()">
+<br><br><br><br><br>
+<table align="center">
+<tr>
+<td><h4>Total Amount</h4></td>
+<td><input type="text" id="amount"></td>
+</tr>
+<tr>
+<td><h4>Credit Card Number</h4></td>
+<td><input type="text" id="cardnumber"></td>
+</tr>
+<tr>
+<td><input type="submit" value="Make Payment"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
